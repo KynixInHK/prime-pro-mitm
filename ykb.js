@@ -31,4 +31,4 @@ if (url.includes("/vip")) {
 }
 console.log(obj)
 body = JSON.stringify(obj)
-$done(body)
+$done({body})
