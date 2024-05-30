@@ -14,8 +14,9 @@
 
  *******************************/
 
-console.log("Hello, world.")
+// console.log("Hello, world.")
 var url = $request.url
+console.log(url)
 var body = $response.body
 var obj = JSON.parse(body)
 if (url.includes("/vip")) {
@@ -28,5 +29,6 @@ if (url.includes("/vip")) {
     obj.data.is_vip = "1"
     obj.data.vip_deadline = "2099-12-31 到期"
 }
+console.log(obj)
 body = JSON.stringify(obj)
 $done(body)
