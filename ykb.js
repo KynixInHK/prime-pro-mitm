@@ -7,11 +7,9 @@
  *******************************
 
  [rewrite_local]
-
- ^https:\/\/api\.yikaobang\.com\.cn\/index\.php\/user\/main\/svip url script-response-body https://raw.githubusercontent.com/KynixInHK/prime-pro-mitm/master/ykb.js
+ ^https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/user\/main\/svip.*$ url script-response-body https://raw.githubusercontent.com/KynixInHK/prime-pro-mitm/master/ykb.js
 
  [mitm]
-
  hostname = api.yikaobang.com
 
  *******************************/
