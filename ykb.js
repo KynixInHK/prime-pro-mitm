@@ -14,6 +14,7 @@
 
  *******************************/
 
+console.log("Hello, world.")
 var url = $request.url
 var body = $response.body
 var obj = JSON.parse(body)
