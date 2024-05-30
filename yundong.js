@@ -8,7 +8,7 @@
 
  [rewrite_local]
 
- ^https:\/\/api\.gotokeep\.com\/kprime\/v1\/auth url script-response-body https://raw.githubusercontent.com/KynixInHK/prime-pro-mitm/main/ycdz/keep.js
+ ^https:\/\/api\.gotokeep\.com\/kprime\/v1\/auth url script-response-body https://raw.githubusercontent.com/KynixInHK/prime-pro-mitm/master/yundong.js
 
  [mitm]
 
